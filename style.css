@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-
+    
 }
 nav{
     position: absolute;
@@ -48,6 +48,7 @@ nav{
     justify-content: space-around;
     width: 500px;
 }
+
 .link > a{
     color:#6C5CE7;
     text-decoration: none;
@@ -60,10 +61,7 @@ nav{
     text-align: center;
 
 }
-.link >a:hover{
-    color: black;
 
-}
 .logo{
     display: flex;
     align-items: center;
@@ -113,7 +111,7 @@ nav{
     margin-left: 15px;
 }
 .padding{
-    padding-left: 300px;
+    padding-left: 320px;
     padding-right: 150px;
 }
 .body-text{
@@ -125,10 +123,10 @@ nav{
     line-height: 32px;
     color: #2D3436; 
     position: absolute;
-    top: 40%;
+    top: 38%;
 }
 .img-body{
-    background: url(/img/Simple.png);   
+    background: url(img/Simple.png);   
     border-radius: 20px; 
     
     height: 380px;
@@ -139,7 +137,7 @@ nav{
 
     position: absolute;
     left: 33%;
-    top: 42%;
+    top: 38%;
     z-index: 2;
     color: white;
 }
@@ -175,7 +173,7 @@ text-shadow: 0px 4px 0px #000000;
 .potion2{
     position: absolute;
     z-index: 2;
-    top: 50%;
+    top: 42%;
     left: 60%;
     width: 320px;
 }
@@ -186,12 +184,12 @@ text-shadow: 0px 4px 0px #000000;
     border-radius: 20px;
     margin-top: 0;
  
-    background: url(/img/Image.png);
+    background: url(img/Image.png);
     border-radius: 20px;
 }
 .potion3{
     position: absolute;
-    top: 52%;
+    top: 50%;
     color: white;
     text-align: center;
     font-family: Inter;
@@ -229,8 +227,8 @@ text-shadow: 0px 4px 0px #000000;
     display: flex;
     position: absolute;
     z-index: 2;
-    top: 70px;
-    left: 840px;
+    top: 8%;
+    left: 790px;
     width: 370px;
     justify-content: space-between;
 }
@@ -253,10 +251,140 @@ text-shadow: 0px 4px 0px #000000;
 .img-4{
     position: absolute;
     z-index: 2;
-    top: 320px;
-    left: 320px;
+    top: 300px;
+    left: 270px;
     width: 910px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+}
+.con-text{
+    position: absolute;
+    top: 130%;
+}
+.con-text > h1{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+} 
+.con-text > p{
+    width: 800px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.25px;
+
+}
+.cards{
+    display: flex;
+    z-index: 2;
+    width: 80%;
+   position: absolute;
+   top: 158%;
+   justify-content: space-between;
+}
+.card{
+    height: 330px;
+    width: 250px;
+    border-radius: 0px;
+    
+}
+.card-du{
+    height: 70px;
+    width: 70px;
+    border-radius: 999px;
+        
+    /* Pink / Dark */
+
+    background: #E84393;
+    border-radius: 999px;
+}
+.card-du > svg{
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 6px rgba(38, 50, 56, 0.16)), drop-shadow(0px 4px 16px rgba(38, 50, 56, 0.08));
+}
+.card > button{
+    height: 48px;
+    width: 146px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color:  #6C5CE7;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+}
+.blue{
+    /* Blue / Dark */
+
+background: #0984E3;
+}
+.violet{
+    background: #6C5CE7;
+}
+.dark-gren{
+    background-color: rgb(0, 160, 0);
+}
+.cards2{
+    display: flex;
+    margin-left: 7%;
+    width: 80%;
+    position: absolute;
+    top: 230%;
+}
+.card2 {
+
+    border-radius: 10px;
+    width: 250px;
+    padding: 80px;
+
+}
+.galichka{
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+.card2 > button{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color:  #6C5CE7;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px; 
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.card > button:hover{
+    background: #6C5CE7;
+    color: white;
+    cursor: pointer;
+}
+.card2 > button:hover{
+    background: #6C5CE7;
+    color: white;
+    cursor: pointer;
+}
+.nav-body > button:hover{
+    background: #5649be;
+    cursor: pointer;
+}
+.link > a:hover{
+    color: black;
+    cursor: pointer;
 }
